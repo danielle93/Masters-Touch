@@ -228,10 +228,12 @@ display: inline-block;
 }
 
 .icon{
-    width:100px
+    width:100px;
+    height: 100px;
 }
 i{
-    height:95px;
+    height:100px;
+    width: 100px;
     font-size:80px;
     color: rgba(172,151,177,1);
 }
