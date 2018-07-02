@@ -34,6 +34,7 @@ h3{
 .site-nav ul {
   display: flex;
   flex-direction: column;
+    position: relative;
 }
 
 .header-wrapper{
@@ -46,11 +47,11 @@ h3{
     content: "";
     position: absolute;
     z-index: 0;
-    top:6%;
+    top:5%;
     left:0;
     border-top: 60px solid #fff;
     border-right: 70px solid transparent;
-    width: 30%;
+    width: 35%;
 }
 
 .header {
@@ -160,18 +161,19 @@ li:hover > ul.drop-menu li {
     background-size: cover;
     padding-top:80px;
     padding-bottom: 360px;
+    position: relative;
 }
 
 .hero:before{
     content: "";
     position: absolute;
     z-index: 0;
-    bottom:0;
+    bottom:-5px;
     right:0;
     margin: 0;
     border-bottom: 60px solid #fff;
     border-left: 70px solid transparent;
-    width: 30%;
+    width: 35%;
 }
 
 .btn-container{
