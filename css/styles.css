@@ -46,12 +46,12 @@ h3{
 .header:before{
     content: "";
     position: absolute;
-    z-index: 0;
-    top:5%;
-    left:0;
+    z-index: 1;
+    top:30px;
+    right:75%;
     border-top: 60px solid #fff;
     border-right: 70px solid transparent;
-    width: 35%;
+    width: 900px;
 }
 
 .header {
@@ -160,8 +160,9 @@ li:hover > ul.drop-menu li {
     background-position: top;
     background-size: cover;
     padding-top:80px;
-    padding-bottom: 360px;
+    padding-bottom: 350px;
     position: relative;
+    z-index: 0;
 }
 
 .hero:before{
